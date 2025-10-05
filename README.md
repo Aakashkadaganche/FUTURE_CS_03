@@ -29,29 +29,26 @@ This project focuses on security, encryption, and file integrity, simulating rea
 ## ⚙️ Setup Instructions
 
 1. **Clone the repository:**
-   ```bash
+   
    git clone https://github.com/your-username/Secure_File_Sharing_System.git
    cd Secure_File_Sharing_System
-Create a virtual environment and install dependencies:
+   
+2.Create a virtual environment and install dependencies:
 
-bash
-Copy code
 python -m venv venv
 # Windows
 venv\Scripts\activate
 # Linux / Mac
 source venv/bin/activate
 pip install -r requirements.txt
-Run the Flask app:
 
-bash
-Copy code
+4.Run the Flask app:
+
 python app.py
 Open your browser at: http://127.0.0.1:5000
 
-📂 Folder Structure
-pgsql
-Copy code
+4.📂 Folder Structure
+
 Secure_File_Sharing_System/
 ├─ app.py
 ├─ README.md
@@ -73,5 +70,4 @@ Delete files: Click the "Delete" button to remove files securely.
 
 All files are encrypted at rest and verified for integrity during download.
 
-yaml
-Copy code
+
